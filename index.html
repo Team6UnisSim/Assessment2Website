@@ -14,10 +14,10 @@
         <div class="logo">KOWLAAB</div>
         <div>
             <ul class="nav-links">
+                <li><a href="#game">Game</a></li>
+                <li><a href="#deliverables">Deliverables</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                
             </ul>
         </div>
     </nav>
@@ -30,10 +30,9 @@
                 <span></span>
             </div>
             <div class="menu-links">
+                <li><a href="#game" onclick="toggleMenu()">Game</a></li>
+                <li><a href="#deliverables" onclick="toggleMenu()">Deliverables</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
@@ -52,55 +51,145 @@
                     Download Game
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                Contact Info
+                Deliverables
                 </button>
             </div>
                 <div id="socials-container">
-                <img
-                    src="./assets/linkedin.png" 
-                    alt="My LinkedIn profile"
-                    class="icon" 
-                    onclick="location.href=https;//www.linkedin.com/in/ben-salkield"
-                />
+
                 <img
                     src="./assets/github.png" 
-                    alt="My Github profile"
+                    alt="Github"
                     class="icon" 
-                    onclick="location.href=https;//github.com/"
+                    onclick="location.href='https://github.com/ENG1-Cohort2-Group9';"
                 />
         </div>
+    </section>
+
+    <section id="game">
+      <div class="section__pic-container">
+          <img src="/assets/logo.png" alt="logo picture">
+      </div>
+      <div class="section__text">
+          <p class="section__text__p1">Try Our Game</p>
+          <h1 class="title">University Tycoon</h1>
+          
+          <div class="btn-container">
+              <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/resume.pdf')">
+                  Download Game
+              </button>
+              
+
+          </div>
+              <div id="socials-container">
+
+              <img
+                  src="./assets/github.png" 
+                  alt="Github"
+                  class="icon" 
+                  onclick="location.href='https://github.com/ENG1-Cohort2-Group9';"
+              />
+      </div>
+  </section>
+    
+    <section id="deliverables">
+      <p class="section__text__p1">Have a look at our</p>
+      <h1 class="title">Deliverables</h1>
+      <div class="contact-info-upper-container">
+        <ul class="nav-links">
+          <li><a href="https://docs.google.com/document/d/1yb-rZzYgXyql-2PRwctj99kvo-mbIqhzbhZdg2_tR7s/edit?tab=t.0#heading=h.35siiqxu77wl">Requirements</a></li>
+          <li><a href="https://docs.google.com/document/d/1UrVMAgai4vp8ZCBbmlWwFive2iHZjr8TdXbHAoMEAtA/edit?tab=t.0">Architecture</a></li>
+          <li><a href="https://docs.google.com/document/d/1ZO64EC3hGOPSJuUK2IAuPaVtQ0kNFk_cF-ruJXbAG1s/edit?tab=t.0">Method selection and planning</a></li>
+          <li><a href="https://docs.google.com/document/d/15j8Xtuc8B6Ce9cibv_okvGjF-jVWdhF3AxNaZIOKHU4/edit?tab=t.0#heading=h.w178rbdpj1p0">Risk assessment and mitigation</a></li>
+          <li><a href="https://docs.google.com/document/d/1NqQLk3C2xtFSHSWWTfKfWn5F93vpEWnjrUsSI6frre0/edit?tab=t.0">Implementation</a></li>
+
+        </ul>
+        <div class="contact-info-container">
+
+        </div>
+      </div>
     </section>
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Us</h1>
         <div class="section-container">
-          <div class="section__pic-container">
-            <img
-              src="./assets/about-pic.png"
-              alt="Profile picture"
-              class="about-pic"
-            />
-          </div>
+
           <div class="about-details-container">
             <div class="about-containers">
               <div class="details-container">
                 <img
-                  src="./assets/experience.png"
-                  alt="Experience icon"
-                  class="icon"
+                  src="./assets/ben.jpg"
+                  alt="Education icon"
+                  class="profile-pic"
+                  style= "width: 175px; height: 175px; border-radius: 20px;"
                 />
-                <h3>Some fact</h3>
-                <p>1 <br />2</p>
+                <h3>Ben</h3>
+                <p>sentence about<br />Ben</p>
               </div>
               <div class="details-container">
                 <img
-                  src="./assets/education.png"
-                  alt="Education icon"
-                  class="icon"
+                  src="./assets/lurvish.jpg"
+                  alt="Experience icon"
+                  class="profile-pic"
+                  style= "width: 175px; height: 175px; border-radius: 20px;"
                 />
-                <h3>Some fact</h3>
-                <p>1<br />2</p>
+                <h3>Lurvish</h3>
+                <p>sentence about <br />Lurvish</p>
               </div>
+              <div class="details-container">
+                <img
+                  src="./assets/ben.jpg"
+                  alt="Education icon"
+                  class="profile-pic"
+                  style= "width: 175px; height: 175px; border-radius: 20px;"
+                />
+                <h3>Alex</h3>
+                <p>sentence about<br />Alex</p>
+              </div>
+
+
+              <div class="details-container">
+                <img
+                  src="./assets/kiyan.jpg"
+                  alt="Education icon"
+                  class="profile-pic"
+                  style= "width: 175px; height: 175px; border-radius: 20px;"
+                />
+                <h3>Kiyan</h3>
+                <p>sentence about<br />Kiyan</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/oliver.jpg"
+                  alt="Education icon"
+                  class="profile-pic"
+                  style= "width: 175px; height: 175px; border-radius: 20px;"
+                />
+                <h3>Oliver</h3>
+                <p>sentence about<br />Oliver</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/ben.jpg"
+                  alt="Education icon"
+                  class="profile-pic"
+                  style= "width: 175px; height: 175px; border-radius: 20px;"
+                />
+                <h3>Aiden</h3>
+                <p>sentence about<br />Aiden</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/will.jpg"
+                  alt="Education icon"
+                  class="profile-pic"
+                  style= "width: 175px; height: 175px; border-radius: 20px;"
+                />
+                <h3>Will</h3>
+                <p>sentence about<br />Will</p>
+              </div>
+
             </div>
             <div class="text-container">
               <p>
@@ -119,157 +208,30 @@
           onclick="location.href='./#experience'"
         />
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore the</p>
-      <h1 class="title">Languages</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <h2 class="experience-sub-title">Languages</h2>
-              <div class="article-container">
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>HTML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                    <p>Advanced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>JavaScript</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>C# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-              </div>
-            </div>
-            <div class="details-container">
-
-            </div>
-          </div>
-        </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
+    <section id="docs" style="height: fit-content;">
+      <h1 class="title">Architecture Documents</h1>
+      <p class="section__text__p1">Figure 1</p>
+      <img src="assets/f1.png" alt="Figure 1" style="width: fit-content;">
+      <p class="section__text__p1">Figure 2</p>
+      <img src="assets/f2.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 3</p>
+      <img src="assets/f3.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 4</p>
+      <img src="assets/f4.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 5</p>
+      <img src="assets/f5.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 6</p>
+      <img src="assets/f6.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 7</p>
+      <img src="assets/f7.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 8</p>
+      <img src="assets/f8.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 9</p>
+      <img src="assets/f9.png" alt="" style="width: fit-content;">
+      <p class="section__text__p1">Figure 10</p>
+      <img src="assets/f10.png" alt="" style="width: fit-content;">
     </section>
-    <section id="projects">
-        <p class="section__text__p1">Browse Our </p>
-        <h1 class="title">Game</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-1.png"
-                  alt="Project 1"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Game</h2>
-              <h3 class="experience-sub-title-project-sub-title"> Java</h3>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
-                >
-                  Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='calculator.html'"
-                >
-                  Live Demo
-                </button>
-              </div>
-            </div>
 
-
-          </div>
-        </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#contact'"
-        />
-      </section>
-      <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Us</h1>
-        <div class="contact-info-upper-container">
-          <div class="contact-info-container">
-            <img
-              src="./assets/email.png"
-              alt="Email icon"
-              class="icon contact-icon email-icon"
-            />
-            <p><a class= "email-underline" href="mailto:vqg502@york.ac.uk">vqg502@york.ac.uk</a></p>
-          </div>
-          <div class="contact-info-container">
-            <img
-              src="./assets/linkedin.png"
-              alt="LinkedIn icon"
-              class="icon contact-icon"
-            />
-            <p><a class="linkedin-underline" href="https://www.linkedin.com/in/ben-salkield">LinkedIn</a></p>
-          </div>
-        </div>
-      </section>
       <footer>
         <nav>
           <div class="nav-links-container">

@@ -326,6 +326,28 @@ section {
     margin: auto 0;
 }
 
+.about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    max-width: 100%; /* Ensure the container does not exceed the screen width */
+}
+
+.details-container {
+    flex: 1 1 250px; /* Allow the container to grow and shrink, with a base width of 200px */
+    max-width: 250px; /* Ensure the container does not exceed 200px */
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin: 0px; /* Adjust margin as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -412,21 +434,36 @@ section {
   .contact-info-upper-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    background: (250, 250, 250);
+    background: rgb(250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
-  }
-  
-  .contact-info-container {
+}
+
+.contact-info-container {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Ensure items are stacked vertically */
+    align-items: flex-start; /* Align items to the start of the container */
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
-  }
+}
+
+.contact-info-container ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+.contact-info-container li {
+    margin-bottom: 10px; /* Add space between list items */
+    list-style-type: none;
+    text-align: center;
+}
 
   .email-underline {
     padding-right: 0.5rem;
