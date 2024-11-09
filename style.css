@@ -173,10 +173,10 @@ section {
 }
 
 #game {
-    display: flex;
+
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 50vh;
 }
 
 .section__pic-container {

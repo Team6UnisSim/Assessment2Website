@@ -46,6 +46,12 @@
       margin-top: 0;
     }
   }
+
+  @media screen and (min-width: 600px) {
+    #game {
+      display: flex;
+    }
+  }
   
   @media screen and (max-width: 600px) {
     #contact,
@@ -56,11 +62,7 @@
       height: 83vh;
       margin-bottom: 0;
     }
-    #game {
-      height: 50vh;
-      margin-bottom: 0;
-      display: block;
-    }
+
     article {
       font-size: 1rem;
     }
