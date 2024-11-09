@@ -51,6 +51,11 @@
     #game {
       display: flex;
     }
+    .doc-img
+    {
+      width: fit-content;
+    
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -109,6 +114,9 @@
     }
     .text-container {
       text-align: justify;
+    }
+    .doc-img {
+      width: 100%;
     }
   }
   
