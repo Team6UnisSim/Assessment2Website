@@ -56,6 +56,11 @@
       height: 83vh;
       margin-bottom: 0;
     }
+    #game {
+      height: 50vh;
+      margin-bottom: 0;
+      display: block;
+    }
     article {
       font-size: 1rem;
     }
