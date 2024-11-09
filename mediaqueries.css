@@ -47,7 +47,7 @@
     }
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 601px) {
     #game {
       display: flex;
     }
@@ -60,6 +60,9 @@
     }
     #profile {
       height: 83vh;
+      margin-bottom: 0;
+    }
+    #game {
       margin-bottom: 0;
     }
 

@@ -173,11 +173,11 @@ section {
 }
 
 #game {
-
     justify-content: center;
     gap: 5rem;
-    height: 50vh;
+
 }
+
 
 .section__pic-container {
     display: flex;
