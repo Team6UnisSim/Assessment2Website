@@ -294,7 +294,8 @@ section {
 /* ABOUT SECTION */
 
 #about {
-    position: relative;
+    /* position: relative; */
+    /* disabling this fixes a bug where the hamburger menu appears underneath the about section*/
 }
   
 .about-containers {
